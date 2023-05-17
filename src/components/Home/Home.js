@@ -1,5 +1,6 @@
 import './Home.css';
 import { Button, Stack } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 import Type from "./Type"
 
 export default function Home() {
@@ -9,8 +10,8 @@ export default function Home() {
                 <h1>Jason <span className='name'>Kehagias</span></h1>
                 <h2><Type /></h2>
                 <Stack className='presentation-btns' direction='horizontal' gap={3}>
-                    <Button className='presentation-btn' href='/about' size='lg' variant='secondary'>About Me</Button>
-                    <Button className='presentation-btn' href='/projects' size='lg' variant='secondary'>Projects</Button>
+                    <Button className='presentation-btn' size='lg' variant='secondary'><Link smooth={true} to='about'>About Me</Link></Button>
+                    <Button className='presentation-btn' size='lg' variant='secondary'><Link smooth={true} to='projects'>Projects</Link></Button>
                 </Stack>
             </Stack>
         </div>
