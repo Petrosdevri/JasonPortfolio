@@ -1,0 +1,74 @@
+.tech-stack1 {
+  margin: 0 2em;
+  align-items: center;
+}
+
+.tech-stack {
+  margin: 80px 0 80px 0;
+}
+
+.sq-stack {
+  width: 250px;
+  height: 250px;
+  background: #616E7C;
+  border-radius: 10px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sq-stack:hover {
+  animation: scale 1s ease-in-out;
+  border: 2px solid #FFF;
+  box-shadow: 0 0 55px 15px rgba(16, 42, 67, .5);
+  cursor: pointer;
+}
+
+.python:hover {
+  background: linear-gradient(90deg, #034B86, #3776AB, #FFD43F, #BE9602);
+}
+
+.excel:hover {
+  background: linear-gradient(110deg, #006400, #217346, #217346, #006400);
+}
+
+.mysql:hover {
+  background: linear-gradient(90deg, #306998, #4479A1, #FF9933, #B35900);
+}
+
+.requests:hover {
+  background: linear-gradient(90deg, #4B0082, #800080, #B4009E, #4B0082);
+}
+
+.keras:hover {
+  background: linear-gradient(90deg, #800000,#D00000, #D00000, #800000);
+}
+
+.numpy:hover {
+  background: linear-gradient(90deg, #013243, #015C7F, #015C7F, #013243);
+}
+
+.tensorflow:hover {
+  background: linear-gradient(90deg, #FF4500, #FF6600, #FF6F00, #FF4500);
+}
+
+.scikit-learn:hover {
+  background: linear-gradient(90deg, #F7931E, #FFC906, #FFC906, #F7931E);
+}
+
+.powerbi:hover {
+  background: linear-gradient(90deg, #A67F0E, #F2C811, #F2C811, #A67F0E);
+}
+
+.pandas:hover {
+  background: linear-gradient(90deg, #150458, #3A0CA3, #3A0CA3, #150458);
+}
+
+.matplotlib:hover {
+  background: linear-gradient(90deg, #556B2F, #808000, #808000, #556B2F);
+}
+
+.seaborn:hover {
+  background: linear-gradient(90deg, #013243, #015C7F, #015C7F, #013243);
+}

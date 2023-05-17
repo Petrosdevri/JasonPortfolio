@@ -1,0 +1,16 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin: 100px 120px 0 50px;
+  text-align: left;
+}
+
+.introduction {
+  margin-block-start: 250px;
+}
+
+.presentation-btn {
+  width: 120px;
+  height: 40px;
+}

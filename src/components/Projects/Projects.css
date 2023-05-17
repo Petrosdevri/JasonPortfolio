@@ -1,0 +1,27 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+  margin: 50px 12%;
+}
+
+.card-btn {
+  width: 100px;
+  height: 30px;
+  background: #616E7C;
+  border: none;
+  border-radius: 2px;
+}
+
+.card-btn > a {
+  color: #FFF;
+  margin: 4px auto;
+  text-decoration: none;
+}
+
+.card-btn > a:hover {
+  color: #FFF !important;
+}

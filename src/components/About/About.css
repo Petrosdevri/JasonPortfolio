@@ -1,0 +1,27 @@
+#about-photo {
+  width: 275px !important;
+  height: 225px !important;
+  border-radius: 50% !important;
+  box-shadow: 0 0 2.5px rgba(16, 42, 67, 0.5);
+  margin-inline-end: 65px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin: 100px 120px 0 50px;
+  text-align: left;
+}
+
+.hobby-list > li {
+  margin-block-end: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  #about-photo {
+    width: 155px !important;
+    height: 155px !important;
+    margin: 0 auto;
+  }
+}
