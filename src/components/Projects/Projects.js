@@ -6,6 +6,7 @@ import CaliforniaHousingPrices from '../../img/projects/California Housing Price
 import CountriesScraping from '../../img/projects/Countries Scraping.png';
 import CreditCardFraudDetection from '../../img/projects/Credit Card Fraud Detection.png';
 import ForbesSportEarnings from '../../img/projects/Forbes Sport Earnings.png';
+import SpaceXProject from '../../img/projects/SpaceX Project.png';
 import StudentsExams from '../../img/projects/Students Exams.png';
 import SQLMurderMystery from '../../img/projects/SQL Murder Mystery.png';
 import SQLSummerOlympics from '../../img/projects/SQL Summer Olympics.png';
@@ -22,7 +23,7 @@ export default function Projects() {
             <Stack className='projects-stack' direction='horizontal' gap={5}>
                 <ProjectCard title='Credit Card Fraud Detection' description='An ML model built with Keras, NumPy, Pandas and Seaborn to detect credit card fraud cases.' picture={CreditCardFraudDetection} code='https://github.com/JasonKeha/Machine_Learning-ML-/blob/main/Credit_Card_Fraud_Detection_(ML).ipynb' />
                 <ProjectCard title='Forbes Sport Earnings' description='Tracks sport earnings based on a Forbes dataset using aforementioned libraries and prints out results.' picture={ForbesSportEarnings} code='https://github.com/JasonKeha/Exploratory_Data_Analysis-EDA-/blob/main/Forbes%20Sport%20Earnings%20(EDA).ipynb' />
-                <ProjectCard title='SpaceX Megaproject' description='A megaproject combining data analysis to investigate into SpaceX data.' code='https://github.com/JasonKeha/Space_X_Megaproject' />
+                <ProjectCard title='SpaceX Megaproject' description='A megaproject combining data analysis to investigate into SpaceX data.' picture={SpaceXProject} code='https://github.com/JasonKeha/Space_X_Megaproject' />
             </Stack>
             <Stack className='projects-stack' direction='horizontal' gap={5}>
                 <ProjectCard title='Students Exams' description='Tracks student performance based on a dataset using aforementioned libraries and prints out results.' picture={StudentsExams} code='https://github.com/JasonKeha/Exploratory_Data_Analysis-EDA-/blob/main/Students%20Exams%20(EDA).ipynb' />
