@@ -16,6 +16,7 @@ export default function Projects() {
         <div className='projects' name='projects'>
             <h1>Projects</h1>
             <Stack className='projects-stack' direction='horizontal' gap={5}>
+                <ProjectCard title='AI Dangers Text Analysis' description='A project using NLTK to analyse an academic paper for a university assignment' code='https://colab.research.google.com/drive/1zP_f585VVShTiDTS9wvtuk2Y9rajUh49?invite=CK2F7-IB#scrollTo=hhk-olKZbEOk' />
                 <ProjectCard title='Amsterdam Housing' description='A Beautiful Soup & Requests project which tracks records from Amsterdam real estate market.' picture={AmsterdamHousing} code='https://github.com/JasonKeha/Scraping_Projects/blob/main/Amsterdam_Housing_(Scraping_Project).ipynb' />
                 <ProjectCard title='California Housing Prices' description='An alternative way to track housing prices in California using Keras, Matplotlib, NumPy & Pandas.' picture={CaliforniaHousingPrices} code='https://github.com/JasonKeha/Machine_Learning-ML-/blob/main/California_Housing_Prices_(ML).ipynb' />
                 <ProjectCard title='Countries Scraping' description='A Beautiful Soup, Pandas & Requests project which lists country data from a website.' picture={CountriesScraping} code='https://github.com/JasonKeha/Scraping_Projects/blob/main/Countries_(Scraping_Project).ipynb' />
