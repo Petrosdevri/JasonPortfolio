@@ -18,6 +18,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 5em;
+  overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,10 +47,6 @@ li {
 .name {
   font-family: 'Merriweather Sans';
   color: #8B949E;
-}
-
-.stack-text-margin {
-  margin-block-start: 4rem;
 }
 
 /* Header Styles */
